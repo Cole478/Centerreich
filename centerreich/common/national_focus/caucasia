@@ -12,277 +12,277 @@ focus_tree = {
 	
 	default = no
   
-  focus = {
+	focus = {
     
-    id = CAU_political_thought
+		id = CAU_political_thought
     
-    x = 13
-    y = 0
-    cost = 10
+		x = 13
+		y = 0
+		cost = 10
     
-    completion_reward = {
+		completion_reward = {
     
-      add_political_power = 150
+			add_political_power = 150
     
-    }
+		}
     
-  }
-  
-  focus = {
-  
-    id = CAU_the_true_path
-    
-    x = 9
-    y = 1
-    cost = 10
-    
-    prerequisite = {
-    
-      CAU_political_thought
-    
-    }
-    
-    completion_reward = {
-    
-      add_political_power = 1
-    
-    }
-  
-  }
-  
-  focus = {
-  
-    id = CAU_anti_trotskite_propoganda
-    
-    x = 5
-    y = 2
-    cost = 10
-    
-    prerequisite = {
-    
-      focus = CAU_the_true_path
-    
-    }
-    
-    completion_reward = {
-    
-      add_political_power = 1
-    
-    }
-  
-  }
-  
-  focus = {
-  
-    id = CAU_finish_five_year_plan
-    
-    x = 5
-    y = 3
-    cost = 10
-    
-    prerequisite = {
-    
-      focus = CAU_anti_trotskite_propoganda
-    
-    }
-    
-    completion_reward = {
-    
-      add_political_power = 1
-    
-    }
-  
-  }
-  
-  focus = {
-  	
-	id = CAU_protect_against_trotsky
-	
-	x = 5
-	y = 4
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_finish_five_year_plan
-	
 	}
+  
+	focus = {
+  
+		id = CAU_the_true_path
+    
+		x = 11
+		y = 1
+		cost = 10
+    
+		prerequisite = {
+    
+			focus = CAU_political_thought
+    
+		}
+    
+		completion_reward = {
+    
+			add_political_power = 1
+    
+		}
+  
+	}
+  
+	focus = {
+  
+		id = CAU_anti_trotskite_propoganda
+    
+		x = 9
+		y = 2
+		cost = 10
+    
+		prerequisite = {
+    
+			focus = CAU_the_true_path
+    
+		}
+    
+		completion_reward = {
+    
+			add_political_power = 1
+    
+		}
+  
+	}
+  
+	focus = {
+  
+		id = CAU_finish_five_year_plan
+    
+		x = 9
+		y = 3
+		cost = 10
+    
+		prerequisite = {
+    
+			focus = CAU_anti_trotskite_propoganda
+    
+		}
+    
+		completion_reward = {
+    
+			add_political_power = 1
+    
+		}
+  
+	}
+  
+	focus = {
+  	
+		id = CAU_protect_against_trotsky
 	
-	completion_reward = {
+		x = 9
+		y = 4
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_finish_five_year_plan
+	
+		}
+	
+		completion_reward = {
     
      		add_political_power = 1
 		
+		}
+  
 	}
   
-  }
+	focus  = {
   
-  focus  = {
+		id = CAU_industry_focus
+	
+		x = 7
+		y = 5
+		cost = 10
+	
+		mutually_exclusive = {
+	
+			focus = CAU_manpower_focus
+	
+		}
+	
+		prerequisite = {
+	
+			focus = CAU_protect_against_trotsky
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
   
-  	id = CAU_industry_focus
-	
-	x = 1
-	y = 4
-	cost = 10
-	
-	mutually_exclusive = {
-	
-		focus = CAU_manpower_focus
-	
-	}
-	
-	prerequisite = {
-	
-		focus = CAU_protect_against_trotsky
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
-	}
-  
-  }
-  
-  focus  = {
-  
-  	id = CAU_train_scientists
-	
-	x = 1
-	y = 5
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_industry_focus
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
 	}
   
-  }
+	focus  = {
   
-  focus = {
+		id = CAU_train_scientists
+	
+		x = 7
+		y = 6
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_industry_focus
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
   
-  	id = CAU_manpower_focus
-	
-	x = 9
-	y = 4
-	cost = 10
-	
-	mutually_exclusive = {
-	
-		focus = CAU_industry_focus
-	
-	}
-	
-	prerequisite = {
-	
-		focus = CAU_protect_against_trotsky
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
 	}
   
-  }
+	focus = {
   
-  focus = {
+		id = CAU_manpower_focus
+	
+		x = 11
+		y = 5
+		cost = 10
+	
+		mutually_exclusive = {
+	
+			focus = CAU_industry_focus
+	
+		}
+	
+		prerequisite = {
+	
+			focus = CAU_protect_against_trotsky
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
   
-  	id = CAU_conscript_women_too
-	
-	x = 9
-	y = 5
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_manpower_focus
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
-	}
-  
-  }
-  
-  focus = {
-  
-  	id = CAU_assasinate_trotsky
-	
-	x = 5
-	y = 6
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_train_scientists
-		focus = CAU_conscript_women_too
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
 	}
   
-  }
+	focus = {
   
-  focus = {
+		id = CAU_conscript_women_too
+	
+		x = 11
+		y = 6
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_manpower_focus
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
   
-  	id = CAU_tbilisi_university
-	
-	x = 9
-	y = 6
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_train_scientists
-		focus = CAU_conscript_women_too
-	
-	}
-	
-	completion_reward = {
-	
-		add_Research_slot = 1
-	
-	}
-  
-  }
-  
-  focus = {
-  
-  	id = CAU_secret_police
-	
-	x = 13
-	y = 6
-	cost = 10
-	
-	prerequisite = {
-	
-		focus = CAU_train_scientists
-		focus = CAU_conscript_women_too
-	
-	}
-	
-	completion_reward = {
-	
-		add_political_power = 1
-	
 	}
   
-  }
+	focus = {
+  
+		id = CAU_assasinate_trotsky
+	
+		x = 7
+		y = 7
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_train_scientists
+			focus = CAU_conscript_women_too
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
+  
+	}
+  
+	focus = {
+  
+		id = CAU_tbilisi_university
+	
+		x = 9
+		y = 7
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_train_scientists
+			focus = CAU_conscript_women_too
+	
+		}
+	
+		completion_reward = {
+	
+			add_Research_slot = 1
+	
+		}
+  
+	}
+  
+	focus = {
+  
+		id = CAU_secret_police
+	
+		x = 11
+		y = 7
+		cost = 10
+	
+		prerequisite = {
+	
+			focus = CAU_train_scientists
+			focus = CAU_conscript_women_too
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
+  
+	}
   
 }
