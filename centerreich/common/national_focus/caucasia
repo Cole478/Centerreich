@@ -116,4 +116,173 @@ focus_tree = {
   
   }
   
+  focus  = {
+  
+  	id = CAU_industry_focus
+	
+	x = 1
+	y = 4
+	cost = 10
+	
+	mutually_exclusive = {
+	
+		focus = CAU_manpower_focus
+	
+	}
+	
+	prerequisite = {
+	
+		focus = CAU_protect_against_trotsky
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
+  focus  = {
+  
+  	id = CAU_train_scientists
+	
+	x = 1
+	y = 5
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_industry_focus
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
+  focus = {
+  
+  	id = CAU_manpower_focus
+	
+	x = 9
+	y = 4
+	cost = 10
+	
+	mutually_exclusive = {
+	
+		focus = CAU_industry_focus
+	
+	}
+	
+	prerequisite = {
+	
+		focus = CAU_protect_against_trotsky
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
+  focus = {
+  
+  	id = CAU_conscript_women_too
+	
+	x = 9
+	y = 5
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_manpower_focus
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
+  focus = {
+  
+  	id = CAU_assasinate_trotsky
+	
+	x = 5
+	y = 6
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_train_scientists
+		focus = CAU_conscript_women_too
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
+  focus = {
+  
+  	id = CAU_tbilisi_university
+	
+	x = 9
+	y = 6
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_train_scientists
+		focus = CAU_conscript_women_too
+	
+	}
+	
+	completion_reward = {
+	
+		add_Research_slot = 1
+	
+	}
+  
+  }
+  
+  focus = {
+  
+  	id = CAU_secret_police
+	
+	x = 13
+	y = 6
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_train_scientists
+		focus = CAU_conscript_women_too
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+  
+  }
+  
 }
