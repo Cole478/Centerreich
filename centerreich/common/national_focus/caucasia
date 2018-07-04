@@ -16,8 +16,9 @@ focus_tree = {
     
     id = CAU_political_thought
     
-    x = 17
+    x = 13
     y = 0
+    cost = 10
     
     completion_reward = {
     
@@ -31,12 +32,19 @@ focus_tree = {
   
     id = CAU_the_true_path
     
-    x = 13
-    y = 2
+    x = 9
+    y = 1
+    cost = 10
     
     prerequisite = {
     
       CAU_political_thought
+    
+    }
+    
+    completion_reward = {
+    
+      add_political_power = 1
     
     }
   
@@ -46,12 +54,19 @@ focus_tree = {
   
     id = CAU_anti_trotskite_propoganda
     
-    x = 13
-    y = 4
+    x = 5
+    y = 2
+    cost = 10
     
     prerequisite = {
     
-      CAU_the_true_path
+      focus = CAU_the_true_path
+    
+    }
+    
+    completion_reward = {
+    
+      add_political_power = 1
     
     }
   
@@ -61,14 +76,43 @@ focus_tree = {
   
     id = CAU_finish_five_year_plan
     
-    x = 13
-    y = 6
+    x = 5
+    y = 3
+    cost = 10
     
     prerequisite = {
     
-      CAU_anti_trotskite_propoganda
+      focus = CAU_anti_trotskite_propoganda
     
     }
+    
+    completion_reward = {
+    
+      add_political_power = 1
+    
+    }
+  
+  }
+  
+  focus = {
+  	
+	id = CAU_protect_against_trotsky
+	
+	x = 5
+	y = 4
+	cost = 10
+	
+	prerequisite = {
+	
+		focus = CAU_finish_five_year_plan
+	
+	}
+	
+	completion_reward = {
+    
+     		add_political_power = 1
+		
+	}
   
   }
   
