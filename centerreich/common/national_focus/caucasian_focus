@@ -1,0 +1,75 @@
+focus_tree = {
+	id = caucasian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAU
+		}
+	}
+	
+	default = no
+  
+  focus = {
+    
+    id = CAU_political_thought
+    
+    x = 17
+    y = 0
+    
+    completion_reward = {
+    
+      add_political_power = 150
+    
+    }
+    
+  }
+  
+  focus = {
+  
+    id = CAU_the_true_path
+    
+    x = 13
+    y = 2
+    
+    prerequisite = {
+    
+      CAU_political_thought
+    
+    }
+  
+  }
+  
+  focus = {
+  
+    id = CAU_anti_trotskite_propoganda
+    
+    x = 13
+    y = 4
+    
+    prerequisite = {
+    
+      CAU_the_true_path
+    
+    }
+  
+  }
+  
+  focus = {
+  
+    id = CAU_finish_five_year_plan
+    
+    x = 13
+    y = 6
+    
+    prerequisite = {
+    
+      CAU_anti_trotskite_propoganda
+    
+    }
+  
+  }
+  
+}
