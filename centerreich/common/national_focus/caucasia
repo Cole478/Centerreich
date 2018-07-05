@@ -52,11 +52,17 @@ focus_tree = {
   
 	focus = {
   
-		id = CAU_anti_trotskite_propoganda
+		id = CAU_anti_trotskyite_propaganda
     
 		x = 9
 		y = 2
 		cost = 10
+		
+		mutually_exclusive = {
+		
+			focus = CAU_trotsky_was_right
+		
+		}
     
 		prerequisite = {
     
@@ -82,7 +88,7 @@ focus_tree = {
     
 		prerequisite = {
     
-			focus = CAU_anti_trotskite_propoganda
+			focus = CAU_anti_trotskyie_propaganda
     
 		}
     
@@ -120,7 +126,7 @@ focus_tree = {
   
 		id = CAU_industry_focus
 	
-		x = 7
+		x = 8
 		y = 5
 		cost = 10
 	
@@ -148,7 +154,7 @@ focus_tree = {
   
 		id = CAU_train_scientists
 	
-		x = 7
+		x = 8
 		y = 6
 		cost = 10
 	
@@ -170,7 +176,7 @@ focus_tree = {
   
 		id = CAU_manpower_focus
 	
-		x = 11
+		x = 10
 		y = 5
 		cost = 10
 	
@@ -198,7 +204,7 @@ focus_tree = {
   
 		id = CAU_conscript_women_too
 	
-		x = 11
+		x = 10
 		y = 6
 		cost = 10
 	
@@ -283,6 +289,338 @@ focus_tree = {
 	
 		}
   
+	}
+	
+	focus = {
+	
+		id = CAU_defend_against_trotsky
+		
+		x = 13
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_protect_against_trotsky
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_adjust_turkish_border
+		
+		x = 13
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_defend_against_trotsky
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_support_kurdish_rebels
+		# Kurdistan will break away from turkish, iranian, and syrian provinces. Nations that lost land will have the option to declare war on the new kurdish state.
+		
+		x = 13
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_adjust_turkish_border
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_puppet_kurdistan
+		
+		x = 12
+		y = 8
+		cost = 5
+		#kurdistan is not in a position to fight against a puppet regime being installed, unless no one declares war on them
+		
+		mutually_exclusive = {
+		
+			focus = CAU_ally_kurdistan
+		
+		}
+		
+		prerequisite = {
+		
+			focus = CAU_support_kurdish_rebels
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+	id = CAU_integrate_kurdistan
+	
+	x = 12
+	y = 9
+	cost = 10
+	#kurdistan must be alive for a full year before being integrated
+	
+	prerequisite = {
+	
+		focus = CAU_puppet_kurdistan
+	
+	}
+	
+	completion_reward = {
+	
+		add_political_power = 1
+	
+	}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_ally_kurdistan
+		
+		x = 14
+		y = 8
+		cost = 5
+		
+		mutually_exclusive  = {
+		
+			focus = CAU_puppet_kurdistan
+		
+		}
+		
+		prerequisite = {
+		
+			focus = CAU_support_kurdish_rebels
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_kurdish_research_treaties
+		
+		x = 14
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_ally_kurdistan
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_trotsky_was_right
+		
+		x = 11
+		y = 2
+		cost = 10
+		
+		mutually_exclusive = {
+		
+			focus = CAU_anti_trotskyite_propaganda
+		
+		}
+		
+		prerequisite = {
+		
+			focus = CAU_the_true_path
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+		
+	}
+	
+	focus = {
+	
+		id = CAU_trotskyite_coup
+		
+		x = 11
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_trotsky_was_right
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_ask_for_integration
+		
+		x = 11
+		y = 4
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_trotskyite_coup
+		
+		}
+		
+		#will spawn an event that annexes CAU to SOV
+		completion reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_stalin_lied
+		
+		x = 17
+		y = 1
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_political_thought
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_military_coup
+		
+		x = 17
+		y = 2
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_stalin_lied
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_inspire_the_populace
+		
+		x = 17
+		y = 3
+		cost = 10
+	
+	
+	
+		prerequisite = {
+	
+			focus = CAU_military_coup
+	
+		}
+	
+		completion_reward = {
+	
+			add_political_power = 1
+	
+		}
+		
+	}
+	
+	focus = {
+	
+		id = CAU_proclaim_greater_caucasia
+		
+		x = 17
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_inspire_the_populace
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
 	}
   
 }
