@@ -389,24 +389,24 @@ focus_tree = {
 	
 	focus = {
 	
-	id = CAU_integrate_kurdistan
+		id = CAU_integrate_kurdistan
 	
-	x = 12
-	y = 9
-	cost = 10
-	#kurdistan must be alive for a full year before being integrated
+		x = 12
+		y = 9
+		cost = 10
+		#kurdistan must be alive for a full year before being integrated
 	
-	prerequisite = {
+		prerequisite = {
 	
-		focus = CAU_puppet_kurdistan
+			focus = CAU_puppet_kurdistan
 	
-	}
+		}
 	
-	completion_reward = {
+		completion_reward = {
 	
-		add_political_power = 1
+			add_political_power = 1
 	
-	}
+		}
 	
 	}
 	
