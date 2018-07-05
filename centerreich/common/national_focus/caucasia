@@ -603,15 +603,37 @@ focus_tree = {
 	
 	focus = {
 	
-		id = CAU_proclaim_greater_caucasia
+		id = CAU_indoctrinate_the_youth
 		
 		x = 17
-		y = 3
+		y = 4
 		cost = 10
 		
 		prerequisite = {
 		
 			focus = CAU_inspire_the_populace
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_proclaim_greater_caucasia
+		
+		x = 17
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_indocrinate_the_youth
 		
 		}
 		
