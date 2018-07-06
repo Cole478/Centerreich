@@ -88,7 +88,7 @@ focus_tree = {
     
 		prerequisite = {
     
-			focus = CAU_anti_trotskyie_propaganda
+			focus = CAU_anti_trotskyite_propaganda
     
 		}
     
@@ -525,7 +525,7 @@ focus_tree = {
 		}
 		
 		#will spawn an event that annexes CAU to SOV
-		completion reward = {
+		completion_reward = {
 		
 			add_political_power = 1
 		
