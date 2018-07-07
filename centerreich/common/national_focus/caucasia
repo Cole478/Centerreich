@@ -826,7 +826,7 @@ focus_tree = {
 	
 	focus = {
 	
-		id = CAU_targer_afghanistan
+		id = CAU_target_afghanistan
 		
 		x = 21
 		y = 10
@@ -848,7 +848,7 @@ focus_tree = {
 	
 	focus = {
 	
-		id = CAU_southern_expansion
+		id = CAU_southwestern_expansion
 		
 		x = 24
 		y = 7
@@ -870,15 +870,15 @@ focus_tree = {
 	
 	focus = {
 	
-		id = CAU_western_expansion
+		id = CAU_demand_trebizond
 		
-		x = 27
-		y = 7
-		cost = 5
+		x = 24
+		y = 8
+		cost = 10
 		
 		prerequisite = {
 		
-			focus = CAU_expansionism
+			focus = CAU_southwestern_expansion
 		
 		}
 		
