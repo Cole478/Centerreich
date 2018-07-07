@@ -8,7 +8,7 @@ Installation instructions:
 2. locate and open your Hoi IV mod directory (Documents\Paradox Interactive\Hearts of Iron IV\mod)
 3. copy and paste the .mod file and the centerreich folder into the mods directory
 4. launch the game
-5. enjoy testing (if you attempt to change files, run -debug in the launch options, so you can see errors)**************
+5. enjoy testing (if you attempt to change files, run -debug in the launch options, so you can see errors)
 
 
 Modding instructions:
