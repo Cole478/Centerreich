@@ -644,5 +644,49 @@ focus_tree = {
 		}
 	
 	}
+	
+	focus = {
+	
+		id = CAU_fund_state_universities
+		
+		x = 19
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_proclaim_greater_caucasia
+		
+		}
+		
+		completion_reward = {
+		
+			add_research_slot = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_expansionism
+		
+		x = 17
+		y = 6
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_proclaim_greater_caucasia
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
   
 }
