@@ -688,5 +688,206 @@ focus_tree = {
 		}
 	
 	}
+	
+	focus = {
+	
+		id = CAU_northern_expansion
+		
+		x = 18
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_expansionism
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_the_oil_fields
+		
+		x = 18
+		y = 8
+		cost = 10
+		#requires internal instability in the soviet union
+		
+		prerequisite = {
+		
+			focus = CAU_northern_expansion
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_annex_crimea
+		
+		x = 18
+		y = 9
+		cost = 10
+		#if crimea is owned by ukraine, you may demand, going to war if they refuse
+		#if soviet union is the owner, the soviets must have internal instability
+		
+		prerequisite = {
+		
+			focus = CAU_the_oil_fields
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_eastern_expansion
+		
+		x = 21
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_expansionism
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_the_tehran_question
+		
+		x = 21
+		y = 8
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_eastern_expansion
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_fate_of_persia
+		
+		x = 21
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_the_tehran_question
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_targer_afghanistan
+		
+		x = 21
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_fate_of_persia
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_southern_expansion
+		
+		x = 24
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_expansionism
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_western_expansion
+		
+		x = 27
+		y = 7
+		cost = 5
+		
+		prerequisite = {
+		
+			focus = CAU_expansionism
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
   
 }
