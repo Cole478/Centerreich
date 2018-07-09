@@ -47,6 +47,12 @@ focus_tree = {
 			add_political_power = 1
     
 		}
+		
+		mutually_exclusive = {
+		
+			focus = CAU_stalin_lied
+		
+		}
   
 	}
   
@@ -552,6 +558,12 @@ focus_tree = {
 			add_political_power = 1
 		
 		}
+		
+		mutually_exclusive = {
+		
+			focus = CAU_the_true_path
+		
+		}
 	
 	}
 	
@@ -878,7 +890,96 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			focus = CAU_southwestern_expansion
+			focus = CAU_western_expansion
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_demand_west_kurdistan
+		
+		x = 20
+		y = 9
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_demand_trebizond
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_partitian_turkey
+		#partitian with greece
+		
+		x = 20
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_demand_west_kurdistan
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+		
+	}
+		
+	focus = {
+		
+		id = CAU_demand_central_kurdistan
+			
+		x = 22
+		y = 9
+		cost = 10
+			
+		prerequisite = {
+			
+			focus = CAU_demand_trabizond
+			
+		}
+			
+		completion_reward = {
+			
+			add_political_power = 1
+			
+		}
+		
+	}
+	
+	focus = {
+	
+		id = CAU_demand_syria
+		
+		x = 22
+		y = 10
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_demand_central_kurdistan
 		
 		}
 		
