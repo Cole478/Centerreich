@@ -990,5 +990,36 @@ focus_tree = {
 		}
 	
 	}
+	
+	focus = {
+	
+		id = CAU_democratic_union
+		
+		x = 21
+		y = 1
+		cost = 10
+		
+		mutually exclusive = {
+		
+			focus = CAU_the_true_path
+			focus = CAU_stalin_lied
+			
+		}
+		
+		prerequisiste = {
+		
+			CAU_political_thought
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = 
   
 }
