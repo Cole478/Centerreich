@@ -890,7 +890,7 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			focus = CAU_western_expansion
+			focus = CAU_southwestern_expansion
 		
 		}
 		
@@ -957,7 +957,7 @@ focus_tree = {
 			
 		prerequisite = {
 			
-			focus = CAU_demand_trabizond
+			focus = CAU_demand_trebizond
 			
 		}
 			
