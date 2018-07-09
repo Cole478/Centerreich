@@ -633,7 +633,7 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			focus = CAU_indocrinate_the_youth
+			focus = CAU_indoctrinate_the_youth
 		
 		}
 		
@@ -693,7 +693,7 @@ focus_tree = {
 	
 		id = CAU_northern_expansion
 		
-		x = 18
+		x = 16
 		y = 7
 		cost = 5
 		
@@ -715,7 +715,7 @@ focus_tree = {
 	
 		id = CAU_the_oil_fields
 		
-		x = 18
+		x = 16
 		y = 8
 		cost = 10
 		#requires internal instability in the soviet union
@@ -738,7 +738,7 @@ focus_tree = {
 	
 		id = CAU_annex_crimea
 		
-		x = 18
+		x = 16
 		y = 9
 		cost = 10
 		#if crimea is owned by ukraine, you may demand, going to war if they refuse
@@ -762,7 +762,7 @@ focus_tree = {
 	
 		id = CAU_eastern_expansion
 		
-		x = 21
+		x = 18
 		y = 7
 		cost = 5
 		
@@ -784,7 +784,7 @@ focus_tree = {
 	
 		id = CAU_the_tehran_question
 		
-		x = 21
+		x = 18
 		y = 8
 		cost = 10
 		
@@ -806,7 +806,7 @@ focus_tree = {
 	
 		id = CAU_fate_of_persia
 		
-		x = 21
+		x = 18
 		y = 9
 		cost = 10
 		
@@ -828,7 +828,7 @@ focus_tree = {
 	
 		id = CAU_target_afghanistan
 		
-		x = 21
+		x = 18
 		y = 10
 		cost = 10
 		
@@ -850,7 +850,7 @@ focus_tree = {
 	
 		id = CAU_southwestern_expansion
 		
-		x = 24
+		x = 20
 		y = 7
 		cost = 5
 		
@@ -872,7 +872,7 @@ focus_tree = {
 	
 		id = CAU_demand_trebizond
 		
-		x = 24
+		x = 20
 		y = 8
 		cost = 10
 		
