@@ -997,7 +997,7 @@ focus_tree = {
 	
 		id = CAU_democratic_union
 		
-		x = 21
+		x = 23
 		y = 1
 		cost = 10
 		
@@ -1026,13 +1026,212 @@ focus_tree = {
 	
 		id = CAU_extend_political_freedoms
 		
-		x = 21
+		x = 23
 		y = 2
 		cost = 10
 		
 		prerequisite = {
 		
 			focus = CAU_democratic_union
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_relax_conscription
+		
+		x = 23
+		y = 3
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_extend_political_freedoms
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+		
+	}
+	
+	focus = {
+	
+		id = CAU_promote_private_investment
+		
+		x = 23
+		y = 4
+		cost = 10
+		
+		prerequisiste = {
+		
+			focus = CAU_relax_conscription
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_interventionalism
+		
+		x = 22
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_promote_private_investment
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_foreign_brigade
+		
+		x = 22
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_interventionalsim
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_isolationism
+		
+		x = 24
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_promote_private_investment
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_deterrence
+		
+		x = 24
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_isolationsim
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_privatize_education
+		
+		x = 23
+		y = 7
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_foreign_brigade
+			focus = CAU_deterrence
+		
+		}
+		
+		completion_reward = {
+		
+			add_research_slot = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_grant_autonomy
+		
+		x = 26
+		y = 5
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_promote_private_investment
+		
+		}
+		
+		completion_reward = {
+		
+			add_political_power = 1
+		
+		}
+	
+	}
+	
+	focus = {
+	
+		id = CAU_dissolve the union
+		
+		x = 26
+		y = 6
+		cost = 10
+		
+		prerequisite = {
+		
+			focus = CAU_grant_autonomy
 		
 		}
 		
