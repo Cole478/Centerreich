@@ -1001,14 +1001,14 @@ focus_tree = {
 		y = 1
 		cost = 10
 		
-		mutually exclusive = {
+		mutually_exclusive = {
 		
 			focus = CAU_the_true_path
 			focus = CAU_stalin_lied
 			
 		}
 		
-		prerequisiste = {
+		prerequisite = {
 		
 			CAU_political_thought
 		
@@ -1074,7 +1074,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		
-		prerequisiste = {
+		prerequisite = {
 		
 			focus = CAU_relax_conscription
 		
@@ -1223,7 +1223,7 @@ focus_tree = {
 	
 	focus = {
 	
-		id = CAU_dissolve the union
+		id = CAU_dissolve_the_union
 		
 		x = 26
 		y = 6
