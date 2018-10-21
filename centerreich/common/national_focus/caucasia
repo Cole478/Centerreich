@@ -1010,7 +1010,7 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			CAU_political_thought
+			focus = CAU_political_thought
 		
 		}
 		
