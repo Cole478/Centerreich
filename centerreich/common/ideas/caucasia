@@ -1,0 +1,32 @@
+ideas = {
+
+  country = {
+  
+    ethnic_splits = {
+    
+      removal_cost = -1
+    
+    }
+    
+    allowed = {
+    
+      always = no
+    
+    }
+    
+    allowed_civil_war = {
+    
+      always = yes
+    
+    }
+    
+    modifier = {
+    
+      conscription_factor = -0.25
+      stability_factor = -0.1
+    
+    }
+  
+  }
+
+}
