@@ -2,7 +2,7 @@ ideas = {
 
   country = {
   
-    ethnic_splits = {
+    CAU_ethnic_splits = {
     
       removal_cost = -1
     
