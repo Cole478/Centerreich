@@ -1120,7 +1120,7 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			focus = CAU_interventionalsim
+			focus = CAU_interventionalism
 		
 		}
 		
@@ -1164,7 +1164,7 @@ focus_tree = {
 		
 		prerequisite = {
 		
-			focus = CAU_isolationsim
+			focus = CAU_isolationism
 		
 		}
 		
