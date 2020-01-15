@@ -5,4 +5,4 @@ tags={
 	"Alternative History"
 	"National Focuses"
 }
-supported_version="1.5.4"
+supported_version="1.6.2"
