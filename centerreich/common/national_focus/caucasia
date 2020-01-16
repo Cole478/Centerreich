@@ -213,7 +213,7 @@ focus_tree = {
 	
 		completion_reward = {
     
-     		conscription = .05
+     		conscription = .05 #need to make this national spirit, totally forgot.
 		
 		}
   
