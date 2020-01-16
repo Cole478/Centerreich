@@ -10,8 +10,8 @@ ideas = {
     
     allowed = {
     
-      always = no
-    
+      original_tag = CAU
+      
     }
     
     allowed_civil_war = {
