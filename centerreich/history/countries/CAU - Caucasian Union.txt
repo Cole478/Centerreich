@@ -3,6 +3,7 @@ capital = 231
 OOB = "CAU_1936"
 
 add_ideas = CAU_ethnic_splits
+add_ideas = CAU_trotskyite_influence
 
 set_technology = {
   infantry_weapons = 1
