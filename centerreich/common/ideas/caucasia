@@ -25,6 +25,8 @@ ideas = {
     
     }
     
+    }
+    
     CAU_trotskyite_influence = {
     
       removal cost = -1
@@ -43,8 +45,32 @@ ideas = {
     
     modifier = {
     
-    political_power_gain = -.25
-    stability_factor = -0.1
+      political_power_gain = -.25
+      stability_factor = -0.1
+    
+    }
+    
+    }
+    
+    CAU_trained_scientists = {
+    
+      removal cost = -1
+      
+      allowed = {
+    
+      original_tag = CAU
+      
+    }
+    
+    allowed_civil_war = {
+    
+      original_tag = CAU
+    
+    }
+    
+    modifier = {
+    
+      research_speed_factor	= .05
     
     }
     
