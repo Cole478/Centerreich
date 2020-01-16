@@ -44,7 +44,7 @@ focus_tree = {
     
 		completion_reward = {
     
-			add_political_power = 1
+			add_political_power = 100
     
 		}
 		
@@ -79,7 +79,7 @@ focus_tree = {
     
 		completion_reward = {
     
-			add_political_power = 1
+			remove_ideas = CAU_trotskyite_influence
     
 		}
   
@@ -213,7 +213,7 @@ focus_tree = {
 	
 		completion_reward = {
     
-     		add_political_power = 1
+     		conscription = .05
 		
 		}
   
@@ -263,7 +263,7 @@ focus_tree = {
 	
 		completion_reward = {
 	
-			add_political_power = 1
+			add_ideas = CAU_trained_scientists
 	
 		}
   
